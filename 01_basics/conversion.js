@@ -1,3 +1,5 @@
+
+/*
 let score =133
 
 console.log(typeof score);   //returns a number
@@ -74,8 +76,31 @@ console.log(gameCounter);
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
 
+*/
+//again repeated to revise that video 
+
+let score =33
+console.log(typeof score )
+
+let score1 ="33"
+console.log(typeof score1 )
+
+let valueInNumber=Number(score)
+console.log(typeof valueInNumber)
+
+let score2 ="33abc"
+console.log(typeof score1 )
+
+let valueInNumber1=Number(score2)
+console.log(typeof valueInNumber1)
+console.log(valueInNumber1)
+
+let a=0
+console.log(a)
+console.log(typeof a)
 
 
+let isLoggedIn=0
 
-
-
+let BooleanLoggedIn=Boolean(isLoggedIn)
+console.log(BooleanLoggedIn)
